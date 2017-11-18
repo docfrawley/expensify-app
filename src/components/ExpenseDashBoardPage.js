@@ -12,4 +12,4 @@ const ExpenseDashBoardPage = () => (
 );
 
 
-export default ExpenseDashBoardPage;
+export default ExpenseDashboardPage;
