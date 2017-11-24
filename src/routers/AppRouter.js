@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, Switch, Link, NavLink } from 'react-router-dom';
-import createHistory from 'history/createBrowserHistory';
+
 import ExpenseDashBoardPage from '../components/ExpenseDashbBoardPage';
 import AddExpensePage from '../components/AddExpensePage';
 import EditExpensePage from '../components/EditExpensePage';
@@ -8,6 +8,7 @@ import NotFoundPage from '../components/NotFoundPage';
 import LoginPage from '../components/LoginPage';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
+import createHistory from 'history/createBrowserHistory';
 
 export const history = createHistory();
 
